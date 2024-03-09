@@ -1,0 +1,44 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  background-color: darkblue;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+td,
+th {
+  padding: 8px;
+  text-align: left;
+  color: darkblue
+}
+
+th {
+  background-color: whitesmoke;
+}
+
+tr {
+  background-color: grey
+}
+
+thead th {
+  text-align: left
+}
+
+h1 {
+  color: ghostwhite;
+  text-shadow: 8px 8px 8px yellowgreen
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
