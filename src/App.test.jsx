@@ -102,7 +102,7 @@ test("the film details are displayed", () => {
     };
 
     render(<Film film={film} />);
-
+    screen.debug()
     const filmDetail = screen.getByText("The Shawshank Redemption");
     expect(filmDetail).toBeInTheDocument();
 });
