@@ -12,6 +12,7 @@ table {
   border-collapse: separate;
   border-spacing: 8px;
   margin-bottom: 3rem;
+  /* Adding border radius */
 }
 
 td {
@@ -20,12 +21,17 @@ td {
   color: darkslategray
 }
 
+td:hover {
+  background-color: whitesmoke
+    /* Change to the desired color */
+}
 th {
   background-color: darkslategrey;
+  
 }
 
 tr {
-  background-color: whitesmoke
+  background-color: greenyellow;
 }
 
 thead th {
@@ -33,7 +39,14 @@ thead th {
 }
 
 .header {
-  text-shadow: 8px 8px 16px yellowgreen;
+  color: yellowgreen;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .header:hover {
     color: whitesmoke;
   display: flex;
   margin: 0 auto;
