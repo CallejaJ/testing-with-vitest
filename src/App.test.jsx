@@ -50,7 +50,9 @@ test("A film is displayed", () => {
             director: "James Cameron",
         },
     ];
-    render(<Films films={films} />);
+    render(
+        <Films films={films} />
+    );
     const filmTitle = screen.getByText("Titanic");
     expect(filmTitle).toBeInTheDocument();
 
@@ -82,7 +84,13 @@ test("the expected film is displayed", () => {
             director: "Robert Zemeckis",
         },
     ];
-    render(<FilmsList films={films} />);
+    render(
+        <table>
+            <tbody>
+                <FilmsList films={films} />
+            </tbody>
+        </table>
+    );
 
     const filmExpected1 = screen.getByText("The Dark Knight");
     expect(filmExpected1).toBeInTheDocument();
@@ -100,9 +108,13 @@ test("the film details are displayed", () => {
         genre: "Drama",
         director: "Frank Darabont",
     };
-
-    render(<Film film={film} />);
-    screen.debug()
+    render(
+        <table>
+            <tbody>
+                <Film film={film} />
+            </tbody>
+        </table>
+    );
     const filmDetail = screen.getByText("The Shawshank Redemption");
     expect(filmDetail).toBeInTheDocument();
 });
