@@ -12,7 +12,7 @@ export function Films({ films }) {
   return (
     <main>
       <div className="header">
-        <h1>Testing React with Vitest</h1>
+        <h2>Films list: Unit testing with Vitest</h2>
       </div>
       <table>
         <thead>
