@@ -102,11 +102,11 @@ test("the expected film is displayed", () => {
 // 4. Test that film details are displayed
 test("the film details are displayed", () => {
     const film = {
-        id: 15,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        genre: "Drama",
-        director: "Frank Darabont",
+        id: 11,
+        title: "The Silence of the Lambs",
+        year: 1991,
+        genre: "Crime/Drama/Thriller",
+        director: "Jonathan Demme",
     };
     render(
         <table>
@@ -115,6 +115,6 @@ test("the film details are displayed", () => {
             </tbody>
         </table>
     );
-    const filmDetail = screen.getByText("The Shawshank Redemption");
+    const filmDetail = screen.getByText("The Silence of the Lambs");
     expect(filmDetail).toBeInTheDocument();
 });
