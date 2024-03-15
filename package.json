@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jorge Calleja @codinginsideout <callejaj@proton.me> (https://www.linkedin.com/in/callejaj/)",
   "license": "ISC",
   "devDependencies": {
     "@testing-library/react": "^14.2.1",
