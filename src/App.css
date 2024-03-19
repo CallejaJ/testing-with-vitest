@@ -1,45 +1,45 @@
 body {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
-  background-color: darkslategray;
+  background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(73, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   margin: 0 auto;
   justify-content: center;
   display: flex;
 }
+
 
 table {
   border-collapse: collapse;
   border-collapse: separate;
   border-spacing: 8px;
   margin-bottom: 3rem;
-  /* Adding border radius */
 }
+
 
 td {
   padding: 8px;
   text-align: left;
-  color: darkslategray
+  background-color: rgb(183, 183, 183);
+    color: rgba(2, 0, 36, 1)
 }
 
 td:hover {
-  background-color: whitesmoke
-    /* Change to the desired color */
-}
-th {
-  background-color: darkslategrey;
-  
+  background: rgb(81, 81, 84);
+    color: rgb(183, 183, 183)
 }
 
-tr {
-  background-color: greenyellow;
+th {
+  background-color: transparent;
 }
+
 
 thead th {
   text-align: left
 }
 
 .header {
-  color: yellowgreen;
+  color: #fafafa;
     display: flex;
     margin: 0 auto;
     padding: 1rem;
@@ -47,7 +47,7 @@ thead th {
   }
   
   .header:hover {
-    color: whitesmoke;
+  color: whitesmoke;
   display: flex;
   margin: 0 auto;
   padding: 1rem;
