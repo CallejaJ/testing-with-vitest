@@ -17,7 +17,8 @@ To launch the app, run the following command in your terminal:
 ```javascript
 npm run dev
 ```
-![testing with vitest] https://github.com/CallejaJ/testing-with-vitest/assets/115414519/a82d2b54-0241-4952-8732-1c9afcef070e
+https://github.com/CallejaJ/testing-with-vitest/assets/115414519/ad5cbfa3-6f1c-4651-b3fc-f8a50aea247e
+
 
 
 ## How to test
